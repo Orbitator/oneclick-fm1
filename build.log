@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/runner/work/oneclick-fm1/oneclick-fm1/tools/gen_aa_font.py", line 35, in <module>
+    import aa_raster as ar  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/oneclick-fm1/oneclick-fm1/tools/aa_raster.py", line 21, in <module>
+    from PIL import Image, ImageDraw, ImageFont
+ModuleNotFoundError: No module named 'PIL'
+Traceback (most recent call last):
+  File "/home/runner/work/oneclick-fm1/oneclick-fm1/tools/gen_aa_keycaps.py", line 30, in <module>
+    from PIL import Image, ImageDraw
+ModuleNotFoundError: No module named 'PIL'
+loader: image 8208 B at 0x1c0a800, bss end 0x1c0f500
+loader: ota.bin 6907 B
+build: gen_aa_font.py, gen_aa_keycaps.py failed
